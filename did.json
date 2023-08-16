@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:riz.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:riz.github.io#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:riz.github.io",
+      "publicKeyJwk": {
+  "kty":"EC",
+  "crv":"secp256k1",
+  "x":"5yko+41SQSR8SYiU5PrYw+dRhQBKUkWvSYe4xh60pTw=",
+  "y":"1EwNZFMMLHl0e3sAbSg/ljLrHt1n+Afop/2F0o74Vno=",
+}
+    }
+  ],
+  "authentication": [
+    "did:web:riz.github.io#owner"
+  ],
+  "assertionMethod": [
+    "did:web:riz.github.io#owner"
+  ]
+}
